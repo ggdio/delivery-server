@@ -1,260 +1,550 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>App4Food - Anytime, Anywhere</title>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <!-- CSS 
-        ================================================== -->
-    <!-- Bootstrap 3-->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
-    <!-- Template Styles -->
-    <link href="css/style.css" rel="stylesheet" media="screen">
-      </head>
-  <body>
-	  
-	  <!-- NAVBAR
-	      ================================================== -->
-	  <nav class="navbar navbar-default" role="navigation">
-	  	  <div class="container">
-			  <div class="navbar-header">
-			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-			      <span class="sr-only">Toggle navigation</span>
-			      <span class="icon-bar"></span>
-			      <span class="icon-bar"></span>
-			      <span class="icon-bar"></span>
-			    </button>
-			    
-			    <!--Replace text with your app name or logo image-->
-			    <a class="navbar-brand" href="#">App4Food</a>
-			    
-			  </div>
-			  <div class="collapse navbar-collapse navbar-ex1-collapse">
-			    <ul class="nav navbar-nav">
-			      <li><a onclick="$('header').animatescroll({padding:71});">Start</a></li>
-			      <li><a onclick="$('.detail').animatescroll({padding:71});">Screens</a></li>
-			      <li><a onclick="$('.features').animatescroll({padding:71});">Features</a></li>
-			      <li><a onclick="$('.social').animatescroll({padding:71});">Social	</a></li>
-			    </ul>
-			  </div>
-		  </div>
-	  </nav>
-	  
-	  
-	   <!-- HEADER
-	   ================================================== -->	  
-	  <header>
-		 <div class="container">
-			 <div class="row">
-				 <div class="col-md-12">
-					  <h1>App4Food</h1>
-					  <p class="lead">Ask 4 food anytime, anywhere !</p>
-					  
-					  <div class="carousel-iphone">
-					  	<div id="carousel-example-generic" class="carousel slide">
-					    
-					    <!-- Indicators -->
-					    <ol class="carousel-indicators">
-					      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-					    </ol>
-					  
-					    <!-- Wrapper for slides -->
-					    <div class="carousel-inner">
-					      <div class="item active">
-					        <img src="img/screenshots/app-1.png" alt="App Screen 1">
-					      </div>
-					      <div class="item">
-					        <img src="img/screenshots/app-2.png" alt="App Screen 2">
-					      </div>
-					      <div class="item">
-					        <img src="img/screenshots/app-3.png" alt="App Screen 3">
-					      </div>
-					      
-					    </div>
-					  </div>
-					</div>
-				</div>	  
-			</div>    
-		</div>
-	 </header>
-	  
-	  
-	  <!-- PURCHASE
-	      ================================================== -->
-	  <section class="purchase">
-		  <div class="container">
-			  <div class="row">
-				  <div class="col-md-offset-2 col-md-8">
-					 <h1>Food is love.</h1>
-					 	    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-					 	    <button type="button" class="app-store"></button>	
-				  </div>
-			  </div>
-		  </div>
-	  </section>
-	  
-	  
-	  <!-- PAYOFF 
-	      ================================================== -->
-	  <section class="payoff">
-		<div class="container">
-			  <div class="row">
-				  <div class="col-md-12">
-					  <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</h1>
-				  </div>
-			  </div>
-		  </div>	  
-	  </section>
-	  
-	  
-	  <!-- DETAILS 
-	      ================================================== -->
-	  <section class="detail">
+<html lang="en">
+<head>
+<!-- Basic Page Needs
+++++++++++++++++++++++++++++++++++++++ -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<!-- Title
+++++++++++++++++++++++++++++++++++++++ -->
+<title>Old School 1980 - Retina One-Page Theme</title> 
+
+<!-- CSS
+++++++++++++++++++++++++++++++++++++++ -->	
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/owl.carousel.min.css" />
+<link rel="stylesheet" href="css/animate.min.css" />
+<link rel="stylesheet" href="css/swipebox.min.css" />
+<link rel="stylesheet" href="style.css">
+
+<!-- Google fonts
+++++++++++++++++++++++++++++++++++++++ -->	
+<link href='http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+
+<!-- Favicons
+++++++++++++++++++++++++++++++++++++++ -->	
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">	
+</head>
+<body> 
+<div id="wrapper">
+	<header id="header" class="color-scheme-13 switcher-item-1">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<div id="carousel-example-generic-2" class="carousel slide">
-										
-					  <!-- Wrapper for slides -->
-					  <div class="carousel-inner">
-					    <div class="item active">
-					      	<div class="row">
-					      		<div class="col-sm-12 col-md-offset-1 col-md-6">
-					      			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
-					      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					      		</div>
-					      		<div class="col-sm-12 col-md-5">
-					      			<div class="app-screenshot">
-					      				<img src="img/screenshots/app-1.png" class="img-responsive" alt="App Screen 1">
-					      			</div>
-					      		</div>
-					      	</div>
-					    </div>
-					    <div class="item">
-					    	<div class="row">
-					    		<div class="col-sm-12 col-md-offset-1 col-md-6">
-					    			<h1>Sed do eiusmod tempor incididunt ut labore et dolore magna.</h1>
-					    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					    		</div>
-					    		<div class="col-sm-12 col-md-5">
-					    			<div class="app-screenshot">
-					    				<img src="img/screenshots/app-2.png" class="img-responsive" alt="App Screen 2">
-					    			</div>
-					    		</div>
-					    	</div>
-						</div>
-					    <div class="item">
-					      <div class="row">
-					      	<div class="col-sm-12 col-md-offset-1 col-md-6">
-					      		<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
-					      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					      	</div>
-					      	<div class="col-sm-12 col-md-5">
-					      		<div class="app-screenshot">
-					      			<img src="img/screenshots/app-3.png" class="img-responsive" alt="App Screen 3">
-					      		</div>
-					      	</div>
-					      </div>
-					    </div>
-					  </div>
-					
-					  <!-- Indicators -->
-					  <ol class="carousel-indicators">
-					    <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
-					    <li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
-					    <li data-target="#carousel-example-generic-2" data-slide-to="2"></li>
-					  </ol>		
-					</div>
+				<nav class="col-xs-4 hidden-xs hidden-sm">
+					<ul class="nav"> 
+						<li><a href="#home">HOME</a></li>
+						<li><a href="#work">WORK</a></li>
+						<li><a href="#services">SERVICES</a></li>
+					</ul>		
+				</nav>
+				<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
+					<a href="#" id="logo" class="tada animated"><img src="images/logo.png" alt=""></a>
+				</div>
+				<nav class="col-xs-4 hidden-xs hidden-sm">
+					<ul class="nav right"> 
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#blog">BLOG</a></li>
+						<li><a href="#contacts">CONTACTS</a></li>
+					</ul>	
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="section section-first priority-1 color-scheme-1 transition-form switcher-item-2">
+		<div class="container">
+			<h2 id="home" class="big-heading">Welcome</h2>
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1">
+					<blockquote>The Old School is an HTML5 one-page template designed in vintage style. The template is fully ready to work and includes everything you need to build an HTML website. With our template you can easily create and customize your online portfolio, describe your team, illustrate your professional skills and manage your personal or company blog. The Old School is provided with a contact form.</blockquote>
 				</div>
 			</div>
 		</div>
 	</section>
-	
-	  
-	  <!-- FEATURES
-	      ================================================== -->
-	  <section class="features">
-		  <div class="container">
-			  <div class="row">
-				
-				  <div class="col-md-4">
-					  <div class="circle"><i class="icon-bookmark"></i></div>
-					  <h2>Open, Pick, Order</h2>
-					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-				  </div>
-				
-				  <div class="col-md-4">
-					  <div class="circle"><i class="icon-keypad"></i></div>
-					  <h2>Instant Delivery</h2>
-					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-				  </div>
-				 
-				  <div class="col-md-4">
-					  <div class="circle"><i class="icon-like"></i></div>
-					  <h2>Payment made easy</h2>
-					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-				  </div>
-				  
-			  </div>
-		  </div>
-	  </section>
-	  
-	
-	 <!-- SOCIAL
-	     ================================================== -->
-	  <section class="social">
-	  	<div class="container">
-	  		  <div class="row">
-	  			  <div class="col-md-12">
-	  			  	<h2>Connect with us</h2>
-	  			   	<a class="icon-facebook"></a>
-	  			   	<a class="icon-twitter"></a>
-	  			   	<a class="icon-google"></a>
-	  			   	<a class="icon-instagram"></a>
-	  			   	<a class="icon-pinterest"></a>
-	  			   </div>
-	  		  </div>
-	  	  </div>	  
-	  </section>
-	  
-	
-	 <!-- GET IT 
-	     ================================================== -->
-	  <section class="get-it">
-	  	<div class="container">
-	  		<div class="row">
-	  			<div class="col-md-12">
-	  				<h1>Avaialable now on the App Store</h1>
-	  				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-	  				<button type="button" class="app-store"></button>
-	  			</div>
-	  			<div class="col-md-12">
-	  				<hr />
-		  			<ul>
-	                	<li><a href="#link-here">Contact</a></li>
-	                	<li><a href="#link-here">Twitter</a></li>
-	                	<li><a href="#link-here">Press</a></li>
-	                	<li><a href="#link-here">Support</a></li>
-	                	<li><a href="#link-here">Developers</a></li>
-	                	<li><a href="#link-here">Privacy</a></li>
-                	</ul>
-	  			</div>
-	  		</div>
-	  	</div>
-	  </section>
-	  
-	 
-	 <!-- JAVASCRIPT
-	     ================================================== -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/animatescroll.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/retina.min.js"></script>
-  	
+	<div class="transition">
+		<div class="section color-scheme-6 container switcher-item-3">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="owl-carousel">
+						<div class="item">
+							<img src="http://placehold.it/910x332" alt="The Last of us">
+							<span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus semper dignissim. Proin et quam ut neque egestas vulputate quis ut quam. Sed a quam luctus mauris commodo euismod. Donec condimentum, elit vitae eleifend adipiscing, velit ligula gravida turpis, ac ultrices odio orci sed dui.</span>
+						</div>
+						<div class="item">
+							<img src="http://placehold.it/910x332" alt="GTA V">
+							<span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus semper dignissim. Proin et quam ut neque egestas vulputate quis ut quam. Sed a quam luctus mauris commodo euismod. Donec condimentum, elit vitae eleifend adipiscing, velit ligula gravida turpis, ac ultrices odio orci sed dui.</span>
+						</div>
+						<div class="item">
+							<img src="http://placehold.it/910x332" alt="Mirror Edge">
+							<span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus semper dignissim. Proin et quam ut neque egestas vulputate quis ut quam. Sed a quam luctus mauris commodo euismod. Donec condimentum, elit vitae eleifend adipiscing, velit ligula gravida turpis, ac ultrices odio orci sed dui.</span>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a href="#work" class="next-section wow fadeInDown">OUR WORK</a>
+		</div>
+	</div>
+	<section class="section priority-2 color-scheme-3 transition-to switcher-item-4">
+		<div class="container">
+			<h2 id="work" class="wow zoomIn">OUR WORK</h2>
+			<h5 class="wow zoomIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis.</h5>
+			<div class="grid-filter">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<ul class="filter">
+							<li class="wow bounceIn"><a class="active" href="#" data-group="all">All</a></li>
+							<li class="wow bounceIn"><a href="#" data-group="video">Video</a></li>
+							<li class="wow bounceIn"><a href="#" data-group="branding">Branding</a></li>
+							<li class="wow bounceIn"><a href="#" data-group="logo">Logo</a></li>
+							<li class="wow bounceIn"><a href="#" data-group="photo">Photo</a></li>
+						</ul>	
+					</div>
+				</div> 
+				<div class="grid row">
+					<div class="item col-xs-12 col-sm-4 col-md-3" data-groups='["all","logo","branding"]'>
+						<div class="wow flipInY">
+							<a href="http://placehold.it/800x800" class="work swipebox" title="The element of the portfolio widget №1">
+								<img src="http://placehold.it/200x200" alt=""/>
+								<div class="desc icon-search">
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+									<p>Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismot.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-3" data-groups='["all","video"]'>
+						<div class="wow flipInY">
+							<a href="http://youtu.be/d85gkOXeXG4" class="work swipebox" title="The element of the portfolio widget №X" data-type="youtube">
+								<img src="http://placehold.it/200x200" alt=""/>
+								<div class="desc icon-search">
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+									<p>Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismot.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-3" data-groups='["all","photo"]'>
+						<div class="wow flipInY">
+							<a href="http://placehold.it/800x800" class="work swipebox" title="The element of the portfolio widget №3">
+								<img src="http://placehold.it/200x200" alt=""/>
+								<div class="desc icon-search">
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+									<p>Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismot.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-3" data-groups='["all","photo"]'>
+						<div class="wow flipInY">
+							<a href="http://placehold.it/800x800" class="work swipebox" title="The element of the portfolio widget №4">
+								<img src="http://placehold.it/200x200" alt=""/>
+								<div class="desc icon-search">
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+									<p>Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismot.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-3" data-groups='["all","logo"]'>
+						<div class="wow flipInY">
+							<a href="http://placehold.it/800x800" class="work swipebox" title="The element of the portfolio widget №5">
+								<img src="http://placehold.it/200x200" alt=""/>
+								<div class="desc icon-search">
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+									<p>Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismot.</p>
+								</div>
+							</a>
+						</div> 
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-3" data-groups='["all","video"]'>
+						<div class="wow flipInY">
+							<a href="http://youtu.be/d85gkOXeXG4" class="work swipebox" title="The element of the portfolio widget №6">
+								<img src="http://placehold.it/200x200" alt=""/>
+								<div class="desc icon-search">
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+									<p>Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismot.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-3" data-groups='["all","",""]'>
+						<div class="wow flipInY">
+							<a href="http://placehold.it/800x800" class="work swipebox" title="The element of the portfolio widget №7">
+								<img src="http://placehold.it/200x200" alt=""/>
+								<div class="desc icon-search">
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+									<p>Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismot.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-3" data-groups='["all","",""]'>
+						<div class="wow flipInY">
+							<a href="http://placehold.it/800x800" class="work swipebox" title="The element of the portfolio widget №8">
+								<img src="http://placehold.it/200x200" alt=""/>
+								<div class="desc icon-search">
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+									<p>Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismot.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-3" data-groups='["all","",""]'>
+						<div class="wow flipInY">
+							<a href="http://placehold.it/800x800" class="work swipebox" title="The element of the portfolio widget №9">
+								<img src="http://placehold.it/200x200" alt=""/>
+								<div class="desc icon-search">
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+									<p>Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismot.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-3" data-groups='["all","",""]'>
+						<div class="wow flipInY">
+							<a href="http://placehold.it/800x800" class="work swipebox" title="The element of the portfolio widget №10">
+								<img src="http://placehold.it/200x200" alt=""/>
+								<div class="desc icon-search">
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+									<p>Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismot.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-3" data-groups='["all","",""]'>
+						<div class="wow flipInY">
+							<a href="http://placehold.it/800x800" class="work swipebox" title="The element of the portfolio widget №11">
+								<img src="http://placehold.it/200x200" alt=""/>
+								<div class="desc icon-search">
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+									<p>Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismot.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-3" data-groups='["all","",""]'>
+						<div class="wow flipInY">
+							<a href="http://placehold.it/800x800" class="work swipebox" title="The element of the portfolio widget №12">
+								<img src="http://placehold.it/200x200" alt=""/>
+								<div class="desc icon-search">
+									<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+									<p>Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismot.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#services" class="next-section wow fadeInDown">SERVICES</a>
+		</div>
+	</section>
+	<section class="section priority-3 color-scheme-5 switcher-item-5">
+		<div class="container">
+			<h2 id="services" class="wow zoomIn">SERVICES</h2>
+			<h5 class="wow zoomIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis.</h5>
+			<div class="row">
+				<div class="col-sm-6">
+					<h4 class="wow fadeInUp">WEB & UI DESIGN</h4>
+					<div class="row wow fadeInUp">
+						<div class="col-sm-3">
+							<div class="service icon-hexagon">
+								<i class="service icon-monitor"></i>
+							</div>
+						</div>
+						<div class="col-sm-9">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismod lorem. </p>
+						</div>
+					</div>
+					<h4 class="wow fadeInUp">CORPORATE DESIGN</h4>
+					<div class="row wow fadeInUp">
+						<div class="col-sm-3">
+							<div class="service icon-hexagon">
+								<i class="service icon-camera"></i>
+							</div>
+						</div>
+						<div class="col-sm-9">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismod lorem. </p>
+						</div>
+					</div>
+					<h4 class="wow fadeInUp">PRINT DESIGN</h4>
+					<div class="row wow fadeInUp">
+						<div class="col-sm-3">
+							<div class="service icon-hexagon">
+								<i class="service icon-pen"></i>
+							</div>
+						</div>
+						<div class="col-sm-9">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam purus quam, lacinia sit amet lacinia in, venenatis ut turpis. Suspendisse interdum euismod lorem. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-1">
+					<div class="vertical-separator hidden-xs"></div>
+				</div>
+				<div class="col-sm-4">
+					<span class="label">WEB DESIGN 70%</span>
+					<div class="progress-bar" data-value="70">
+						<span class="skill-value wow progress-bar"></span>
+					</div>
+					<span class="label">WORDPRESS 100%</span>
+					<div class="progress-bar" data-value="100">
+						<span class="skill-value wow progress-bar"></span>
+					</div>
+					<span class="label">LOGO DESIGN 33%</span>
+					<div class="progress-bar" data-value="33">
+						<span class="skill-value wow progress-bar"></span>
+					</div>
+					<span class="label">CORPORATE IDENTITY 50%</span>
+					<div class="progress-bar" data-value="50">
+						<span class="skill-value wow progress-bar"></span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 class="wow zoomIn">OUR CLIENTS</h3>
+					<div class="scrollbox">
+						<ul>
+							<li>
+								<a href="/index.html">
+									<img src="http://placehold.it/170x70" alt="logo" />
+								</a>
+							</li>
+							<li>
+								<a href="/index.html">
+									<img src="http://placehold.it/170x70" alt="logo" />
+								</a>
+							</li>
+							<li>
+								<a href="/index.html">
+									<img src="http://placehold.it/170x70" alt="logo" />
+								</a>
+							</li>
+							<li>
+								<a href="/index.html">
+									<img src="http://placehold.it/170x70" alt="logo" />
+								</a>
+							</li>
+							<li>
+								<a href="/index.html">
+									<img src="http://placehold.it/170x70" alt="logo" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<a href="#about" class="next-section wow fadeInDown">ABOUT US</a>
+		</div>
+	</section>
+	<section class="section priority-4 color-scheme-4 transition-form switcher-item-6">
+		<div class="container">
+			<h2 id="about" class="wow zoomIn">ABOUT US</h2>
+			<h5 class="wow zoomIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis.</h5>
+			<div class="row">
+				<div class="col-sm-8">
+					<p class="wow fadeInUp">Lorem ipsum dolor sit amet, odio brute deterruisset an sed, ne vel populo platonem. Inimicus definiebas ea sed, ad pro sanctus verterem corrumpit. Possit facilisis sententiae ea eos, modus albucius quaerendum ad duo, nam ut ponderum deseruisse comprehensam. Feugait accusam in eam, quot labore mollis et mea, qui laoreet eligendi te. Facilis democritum voluptaria nam ut, latine propriae aliquando ea duo.</p>
+					<p class="wow fadeInUp">Ut mea putant labores, eum libris nonumes id. Sed ad vidisse scripta tincidunt, est an brute putant accumsan. Porro vocibus constituto ne has, eu pri virtute hendrerit, ei eos expetenda incorrupte interesset. In solet legimus qui.</p>
+					<p class="wow fadeInUp">Vide vivendo insolens at has. At erant dicam laboramus eum, eu pro consul apeirian. Sea id ornatus voluptua erroribus, ei usu viderer utroque, mei ne error vituperatoribus. Ne errem disputando sit, sit ex ferri oportere qualisque.</p>
+				</div>
+				<div class="col-sm-4">
+					<ul>
+						<li>Vide vivendo insolens at has. At erant dicam laboramus eum, eu pro consul apeirian.</li>
+						<li>Ut mea putant labores, eum libris nonumes id. Sed ad vidisse scripta tincidunt</li>
+						<li>Inimicus definiebas ea sed, ad pro sanctus verterem corrumpit.</li>
+						<li>Sea id ornatus voluptua erroribus, ei usu viderer utroque</li>
+						<li>Sed ad vidisse scripta tincidunt, est an brute putant accumsan.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section> 
+	<div class="transition">
+		<section class="section color-scheme-6 container switcher-item-7">
+			<div class="row">
+				<figure class="team col-xs-12 col-sm-4">
+					<div class="people-photo wow fadeInUp">
+						<img src="http://placehold.it/280x167" alt="" class="thumbnail"/>
+						<div class="social-links">
+							<ul>
+								<li><a href="#" class="icon-facebook"></a></li>
+								<li><a href="#" class="icon-twitter"></a></li>
+								<li><a href="#" class="icon-instagram"></a></li>
+							</ul>
+						</div>
+					</div>
+					<h6 class="wow fadeInUp">Leonard Williamson</h6>
+					<figcaption class="wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Ut mea putant labores, eum libris nonumes id. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora</figcaption>
+				</figure>
+				<figure class="team col-xs-12 col-sm-4">
+					<div class="people-photo wow fadeInUp">
+						<img src="http://placehold.it/280x167" alt="" class="thumbnail"/>
+						<div class="social-links">
+							<ul>
+								<li><a href="#" class="icon-facebook"></a></li>
+								<li><a href="#" class="icon-twitter"></a></li>
+								<li><a href="#" class="icon-instagram"></a></li>
+							</ul>
+						</div>
+					</div>
+					<h6 class="wow fadeInUp">Christopher Mason</h6>
+					<figcaption class="wow fadeInUp">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ut mea putant labores, eum libris nonumes id. Ut mea putant labores, eum libris nonumes id. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
+				</figure>
+				<figure class="team col-xs-12 col-sm-4">
+					<div class="people-photo wow fadeInUp">
+						<img src="http://placehold.it/280x167" alt="" class="thumbnail"/>
+						<div class="social-links">
+							<ul>
+								<li><a href="#" class="icon-facebook"></a></li>
+								<li><a href="#" class="icon-twitter"></a></li>
+								<li><a href="#" class="icon-instagram"></a></li>
+							</ul>
+						</div>
+					</div>
+					<h6 class="wow fadeInUp">Thomas Taylor</h6>
+					<figcaption class="wow fadeInUp">Vide vivendo insolens at has. At erant dicam laboramus eum, eu pro consul apeirian. Sea id ornatus voluptua erroribus, ei usu viderer utroque, mei ne error vituperatoribus. Ne errem disputando sit, sit ex ferri oportere qualisque. Ut mea putant labores, eum libris nonumes id.</figcaption>
+				</figure>
+			</div>
+			<a href="#blog" class="next-section wow fadeInDown">BLOG</a>
+		</section>
+	</div>
+	<section class="section priority-5 color-scheme-14 transition-to switcher-item-8">
+		<div class="container">
+			<h2 id="blog" class="wow zoomIn">BLOG</h2>
+			<h5 class="wow zoomIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aecenas ac augute at erat hendrerit dictum. Praesent porta, purus eget sagittis.</h5>
+			<div class="row">
+				<div class="col-xs-12 col-sm-8">
+					<article class="post wow fadeInUp">
+						<header class="header-post">
+							<time datetime="2012-12-18">18 <span>DEC</span></time>
+							<h4 class="entry-title"><a href="#">OUR FAVORITE LONDON OFFICE</a></h4>
+							<div class="entry-meta-details">
+								<span>AUTHOR: <a href="#">JOHNDOE</a> // CATEGORY: <a href="#">WEB DESIGN</a></span>
+								<a href="#" class="entry-comments">3 COMMENTS</a>
+							</div>
+						</header>
+						<figure class="image-blog"><img src="http://placehold.it/600x280" alt=""></figure>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora.</p>
+						<a href="#" class="more-link">Read more</a>
+					</article>
+					<article class="post wow fadeInUp">
+						<header class="header-post">
+							<time datetime="2012-12-18">18 <span>DEC</span></time>
+							<h4 class="entry-title"><a href="#">OUR FAVORITE LONDON OFFICE</a></h4>
+							<div class="entry-meta-details">
+								<span>AUTHOR: <a href="#">JOHNDOE</a> // CATEGORY: <a href="#">WEB DESIGN</a></span>
+								<a href="#" class="entry-comments">3 COMMENTS</a>
+							</div>
+						</header>
+						<figure class="image-blog"><img src="http://placehold.it/600x280" alt=""></figure>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora.</p>
+						<a href="#" class="more-link">Read more</a>
+					</article>
+				</div>
+				<aside class="col-xs-12 col-sm-4">
+					<div class="search-form">
+						<form method="get" action="#">
+							<input type="text" value="" class="search-text-box" placeholder="Search" />
+							<div class="button-submit"><input type="submit" value="GO!" class="search-submit"/></div>
+						</form>
+					</div>	
+					<h4>TAGS</h4>
+					<ul>
+						<li><a href="#">GRAPHIC DESIGN (176)</a></li>
+						<li><a href="#">PHOTOGRAPHY (68)</a></li>
+						<li><a href="#">FASHION (64)</a></li>
+						<li><a href="#">LIFESTYLE (32)</a></li>
+						<li><a href="#">VIDEO (13)</a></li>
+						<li><a href="#">GLAMOUR (9)</a></li>
+					</ul>
+					<h4>TWITTER FEED</h4>
+					<ul class="twitter-list">
+						<li>
+							<a href="#">@secnavnl</a> I'l let Support know. Thanks! ^TK
+							<span>about an hour ago</span>
+						</li>
+						<li>
+							<a href="#">@MVILORIA1</a> YES. YOU'LL ALSO FIND A DEDICATED CHAPTER IN THE INCLUDED DOCUMENTATION.
+							<a href="#">bit.ly/QJz3tP</a>
+							<span>about 5 days ago</span>
+						</li>
+						<li>
+							<a href="#">@pragithp</a> Nice! Hope you enjoy it :) ^TK
+							<span>about 10 days ago</span>
+						</li>
+					</ul>
+					<h4>ARCHIVES</h4>
+					<nav>
+						<ul>
+							<li><a href="#">JUNE 2012</a></li>
+							<li><a href="#">JANUARY 2012</a></li>
+							<li><a href="#">DECEMBER 2011</a></li>
+							<li><a href="#">NOVEMBER 2011</a></li>
+							<li><a href="#">OCTOBER 2011</a></li>
+						</ul>
+					</nav>
+					<h4>Text Widget</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+				</aside>
+			</div>
+			<a href="#contacts" class="next-section wow fadeInDown">CONTACT</a>
+		</div>
+	</section>
+	<section class="section section-last priority-6 color-scheme-1 switcher-item-9">
+		<div class="container">
+			<h2 id="contacts" class="wow zoomIn">CONTACT US</h2>
+			<h5 class="wow zoomIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis.</h5>
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<form id="ajax-contact-form">
+						<input type="text" name="name" class="form-text wow fadeInUp" value="" placeholder="Your name (required)" />
+						<input type="text" name="email" class="form-text wow fadeInUp" value="" placeholder="Your email (required)" />
+						<input type="text" name="subject" class="form-text wow fadeInUp" value="" placeholder="Subject"/>		
+						<textarea name="message" class="form-textarea wow fadeInUp" rows="8">Message</textarea>	
+						<input type="submit" class="form-button wow fadeInUp" value="SEND"/>			
+					</form>
+					<div id="form-message"></div>				
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<hr>
+					<div class="contacts">
+						<a href="mailto:E-MAIL@YOURDOMAIN.COM" class="icon-mail">E-MAIL@YOURDOMAIN.COM</a>
+						<span class="icon-phone">+44 123-456-7890, 321-654-0987</span>
+						<span class="icon-location">77A FIRST STREET, LONDON, BC1A 4RT, UNITED KINGDOM</span>
+					</div>
+					<hr>
+					<a href="#" class="social-link wow zoomIn icon-facebook"></a>
+					<a href="#" class="social-link wow zoomIn icon-pinterest"></a>
+					<a href="#" class="social-link wow zoomIn icon-twitter"></a>
+					<a href="#" class="social-link wow zoomIn icon-vimeo"></a>
+					<iframe src="https://maps.google.ru/maps?f=q&amp;source=s_q&amp;hl=ru&amp;geocode=&amp;q=New+York&amp;aq=t&amp;sll=-34.161818,151.169128&amp;sspn=2.088552,4.22699&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA,+%D0%A1%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D1%91%D0%BD%D0%BD%D1%8B%D0%B5+%D0%A8%D1%82%D0%B0%D1%82%D1%8B+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8&amp;ll=40.714353,-74.005973&amp;spn=0.478331,1.056747&amp;t=m&amp;z=11&amp;output=embed"></iframe>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<footer>© 2012 Old School Lorem ipsum dolor sit amet.</footer>
+				</div>
+			</div>
+		</div>
+	</section> 
+</div>
+<div class="back-to-top hidden-xs hidden-sm">TOP</div>
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>	
+<script src="js/modernizr.custom.min.js" type="text/javascript"></script>
+<script src="js/retina.min.js" type="text/javascript"></script>
+<script src="js/SmoothScroll.min.js" type="text/javascript"></script>
+<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="js/jquery.shuffle.min.js" type="text/javascript"></script>
+<script src="js/jquery.scrollbox.js" type="text/javascript"></script>
+<script src="js/wow.min.js" type="text/javascript"></script>
+<script src="js/jquery.scrollstop.min.js" type="text/javascript"></script>
+<script src="js/jquery.swipebox.min.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+</body>
 </html>
