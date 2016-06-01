@@ -1,2 +1,1 @@
-# foody
-Food Delivery System
+# Food Delivery System
