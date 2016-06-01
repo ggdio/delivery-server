@@ -1,0 +1,14 @@
+# Spring properties
+spring:
+   application:
+      name: delivery-cart-service
+
+# HTTP settings
+server:
+   port: 2501
+   
+# REDIS
+database:
+   redis:
+      hostname: localhost
+      port: 6379
