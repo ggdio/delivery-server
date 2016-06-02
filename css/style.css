@@ -75,7 +75,7 @@
 }
 @font-face {
   font-family: "Lobster1.4";
-  src: url("../fonts/Lobster_1_4.eot?") format("eot"), url("../fonts/Lobster_1_4.woff") format("woff"), url("../fonts/Lobster_1_4.ttf") format("truetype"), url("../fonts/Lobster_1_4.svg#Lobster1.4") format("svg");
+  src: url("fonts/Lobster_1_4.eot?") format("eot"), url("fonts/Lobster_1_4.woff") format("woff"), url("fonts/Lobster_1_4.ttf") format("truetype"), url("fonts/Lobster_1_4.svg#Lobster1.4") format("svg");
   font-weight: normal;
   font-style: normal;
 }

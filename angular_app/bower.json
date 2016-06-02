@@ -1,0 +1,23 @@
+{
+  "name": "app4food",
+  "authors": [
+    "Guilherme Dio <ggrdio@gmail.com>"
+  ],
+  "description": "Food Delivery System",
+  "main": "",
+  "keywords": [
+    "delivery"
+  ],
+  "license": "MIT",
+  "homepage": "app4food.com.br",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}
