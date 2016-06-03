@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title data-ng-bind="title">App4Food</title>
+    
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../bower_components/material-icons/css/material-icons.css" />
+    <!-- endbower -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <!-- endinject -->
+    
+  </head>
+  <body>
+
+    <div data-ng-view></div>
+
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+
+    <!-- inject:js -->
+    <script src="/app/main/home/home.service.js"></script>
+    <script src="/app/main/home/home.controller.js"></script>
+    <script src="/app/component/version/version.module.js"></script>
+    <script src="/app/component/version/version.filter.js"></script>
+    <script src="/app/component/version/version.directive.js"></script>
+    <script src="/app/component/menu/menu.directive.js"></script>
+    <script src="/app/app.routes.js"></script>
+    <script src="/app/app.module.js"></script>
+    <!-- endinject -->
+    
+  </body>
+</html>
