@@ -11,7 +11,7 @@ gulp.task("inject-vendor", function() {
 
 gulp.task("inject-own", function() {
 	gulp.src("./app/index.html")
-		.pipe(inject(gulp.src(["./app/*.js", "./app/**/*.js", "./assets/**/*.js", "./assets/**/*.css"], {read: false})))
+		.pipe(inject(gulp.src(["./app/component/*.js", ".app/main/*.js", "./app/*.js", "./assets/**/*.js", "./assets/**/*.css"], {read: false})))
 		.pipe(gulp.dest("./app"));
 });
 
