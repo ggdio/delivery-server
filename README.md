@@ -6,8 +6,9 @@ Food Delivery System
 ![Screenshot software](http://url/screenshot-software.png "screenshot software")
 
 ## Usage
-```$ git clone https://github.com/ggdio/software-project.git
-...```
+```
+git clone https://github.com/ggdio/delivery.git
+```
 
 ## Contributors
 
